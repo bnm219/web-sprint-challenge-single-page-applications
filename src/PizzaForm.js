@@ -38,7 +38,7 @@ export default function PizzaForm(props){
                 </div>
             </div> 
             <div className = 'form-group inputs'>
-                <h4>User information</h4>
+                <h4>All Pizzas Come With Red Sauce and Cheese</h4>
                 {/* ////////// TEXT INPUTS ////////// */}
                 <label>Name
                     <input 
@@ -51,8 +51,8 @@ export default function PizzaForm(props){
                 {/*/////////DROPDOWN//////*/}
                 <select 
                 onChange = {onChange}
-                id = 'roleSelect' 
-                name = 'role'
+                id = 'sizeSelect' 
+                name = 'size'
                 value = {values.size}>
                 <option value=''>Select</option>
                 <option value='10 inch'>10 "</option>
